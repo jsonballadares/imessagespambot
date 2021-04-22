@@ -41,7 +41,10 @@ genius = Genius(lyrics_genius_client_id)
 # get artist info
 #song = genius.search_song("Look At Me", "xxxtentacion")
 #song = genius.search_song("WAP", "cardi b")
-song = genius.search_song("fuck love", "xxxtentacion")
+#song = genius.search_song("fuck love", "xxxtentacion")
+#song = genius.search_song("lateralus", "tool")
+#song = genius.search_song("and i told them i invented times new roman", "dance gavin dance")
+song = genius.search_song("throat babies", "city girls")
 lyrics = song.lyrics.splitlines()
 
 pyautogui.PAUSE = 1
